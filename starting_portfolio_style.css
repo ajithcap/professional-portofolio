@@ -975,12 +975,8 @@ a:hover {
         max-width: 100%;
     }
     #background-video0{
-        position: fixed;
-        top: 0;
-        left: 0;
-        min-width: 100%; /* Set the width to 100% for full width */
+        max-width: 270%;
         max-height: 100%;
-        z-index: -1; /* Place the video behind other content */
         object-fit: cover;
     }
     #header,#horlist{
