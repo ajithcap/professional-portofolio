@@ -257,7 +257,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (window.innerWidth <= 768) {
           // Assuming 768 pixels is the threshold for mobile screens
           // You can adjust this threshold based on your design
-          document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=1024');
+          document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=100%');
         }
       }
     
