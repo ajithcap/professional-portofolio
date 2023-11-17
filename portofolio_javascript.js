@@ -252,4 +252,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Call the function initially
     checkText();
+
+    function forceDesktopView() {
+        if (window.innerWidth <= 768) {
+          // Assuming 768 pixels is the threshold for mobile screens
+          // You can adjust this threshold based on your design
+          document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=1024');
+        }
+      }
+    
+      // Run the function when the page loads
+      window.addEventListener('load', forceDesktopView);
 });
