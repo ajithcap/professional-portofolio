@@ -968,6 +968,7 @@ a:hover {
     /* Add this CSS to your stylesheet */
     body{
         max-width: 270%;
+         zoom: 150%; 
     }
     #home,#skills,#education,#project,#internship{
     
