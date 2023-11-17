@@ -997,6 +997,10 @@ a:hover {
     
         max-width: 100%;
     }
+     #background-video0{
+        max-width: max-content;
+        max-height: max-content;
+    }
     #header,#horlist{
            max-width: 300%;  
     }
@@ -1042,7 +1046,7 @@ a:hover {
 
     #background-video,#background-video1,#background-video2{
         max-width: 210vw;
-        max-height: 900vw;
+        max-height: 150vw;
     }
     #ce1{
         max-width: 100%;
