@@ -974,8 +974,8 @@ a:hover {
         max-width: 100%;
     }
      #background-video0{
-       max-width: 100%;
-        max-height: 100%;
+       max-width: 270%;
+        max-height: 270%;
         object-fit: cover;
     }
     #header,#horlist{
