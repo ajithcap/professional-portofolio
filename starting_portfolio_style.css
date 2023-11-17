@@ -1,0 +1,1073 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    content: "";
+    position: absolute;
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    
+    
+    margin: 0;
+    padding: 0;
+    
+}
+#warning-message {
+    display: none;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#background-video0 {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%; /* Set the width to 100% for full width */
+    max-height: 100%;
+    z-index: -1; /* Place the video behind other content */
+    object-fit: cover;
+}
+
+header {
+    position: relative;
+    background-color: #0fa3b1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    
+}
+
+#header-content {
+    display: flex;
+    align-items: center;
+  
+}
+
+#heli li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  
+}
+
+#heli img {
+    max-width: 30px;
+    margin-right: 15px;
+    /* Adjust the margin as needed */
+}
+
+#heli a {
+    color: white;
+    text-decoration: none; /* Remove the underline */
+}
+
+#heli a:hover {
+    text-decoration: underline;
+}
+
+#logo img {
+    border-radius: 50%;
+    margin-right: 12vw;
+    margin-left: 1vw;
+}
+#wel{
+    color: #a8dadc;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+
+
+#objective-text p, #obj {
+    font-family: 'Arimo', sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+   justify-content: center;
+    text-align: left;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: rgba(243, 119, 119, 0); /* Semi-transparent black background */
+    padding: 10px; /* Add padding for better spacing */
+    border-radius: 8px; /* Optional: Add border-radius for a rounded look */
+}
+
+#headerconlist {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-left: 20vw;
+    padding: 20px; /* Adjust the padding as needed */
+    background-color: #0fa3f3; /* Set the background color as needed */
+}
+
+#headerconlist ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#name {
+   
+    font-family: 'Aldrich', sans-serif;
+    font-size: 3vw; /* Using vw (viewport width) for responsive font size */
+    text-align: center;
+    margin: 0 auto; /* Center the element horizontally */
+    margin-right: 10vw;
+    
+}
+
+#name h1 {
+    display: inline-block;
+    background-image: url('gif-41328-42318-hd-wallpapers.gif');
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+/* Media query for smaller screens (e.g., mobile devices) */
+
+
+
+#photo {
+    text-align: center; /* Center the content horizontally */
+}
+
+#photo img {
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto; /* Center the block-level element horizontally */
+    width: 600px;
+    height: 600px;
+}
+
+ 
+
+#ob, #sk, #edu, #ph, #inti, #cerhe {
+    color: #fd8b09;
+    text-shadow: 2px 2px 4px rgba(8, 3, 1, 0.829); /* Add a text shadow with a sunset orange color */
+}
+
+
+#horlist {
+    
+    list-style: none;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+#horlist a{
+    margin-left: 15px;
+}
+#horlist li {
+    margin-right: 20px;
+    position: relative;
+}
+
+#horlist a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#skills,#education,#project,#internship,#certifications{
+    display: none;
+}
+
+#home,#skills,#education,#project,#internship,#certifications{
+    margin-left: 2%;
+    margin-top: 2%;
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    max-width: 100%;
+}
+/* Section skills list */
+#sk{
+    font-size: 50px;
+}
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align skill content to the top */
+    position: relative; /* Add relative positioning */
+}
+
+.skill-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Align items to the start */
+    align-items: flex-start; /* Align items to the top */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+.skill-image {
+    width: 150px; /* Set a fixed width for all skill image containers */
+    height: 150px; /* Set a fixed height for all skill image containers */
+    text-align: center; /* Center text within the skill image container */
+    margin-right: 20px; /* Add some space between items */
+    margin-bottom: 80px; /* Add space between the image and content */
+    position: relative; /* Add relative positioning */
+    cursor: pointer;
+    object-fit: cover;
+}
+
+
+
+.skill-image img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Make the image fill the container */
+    vertical-align: top; /* Align images at the top */
+  
+   
+}
+#slets{
+     color: #ffffff;
+}
+.skill-name {
+    text-align: center; /* Center skill names */
+    color: #ffffff;
+}
+
+.skill-content {
+    display: none;
+    width: 1200px; /* Set a fixed width for all skill content boxes */
+    max-height: 600px; /* Set a maximum height for the content boxes */
+    overflow-y: auto; /* Add vertical scrolling for overflowing content */
+    margin: 20px auto; /* Center horizontally */
+    padding: 10px;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    z-index: 2; /* Set a higher z-index value than the overlapping section */
+}
+
+.skill-content h2 {
+    font-size: 24px;
+    color: #0078d4; /* Set the heading color */
+    margin-bottom: 10px;
+}
+.skill-content h4 {
+    margin-top: 10px;
+    margin-bottom: 40px; /* Set the margin-bottom only once */
+    font-size: 24px;
+    color: #5d35ee; /* Set the heading color */
+}
+
+
+
+.skill-content p {
+   
+    font-size: 20px;
+    margin-bottom: 30px;
+    justify-content: left;
+    align-items: left;
+}
+
+.skill-content strong {
+    font-weight: bold;
+    justify-content: left;
+    align-items: left;
+}
+
+.skill-content ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-align: left;
+    padding: 0; /* Remove default padding */
+}
+
+.skill-content li {
+    font-size: 20px;
+  
+    text-align: left; /* Reset the text alignment to the left */
+}
+.skill-content p, .skill-content h4, .skill-content li {
+    text-align: left;
+}
+
+
+
+
+.skill-container {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack skill images and content vertically */
+    align-items: center; /* Center-align child elements horizontally */
+    position: relative; /* Add relative positioning */
+}
+/* Highlight the active skill image */
+.skill-image.active {
+    border: 2px solid #007BFF; /* Add a blue border for the active skill image */
+}
+
+/* Highlight the active skill content */
+.skill-content.active {
+    background-color: #f0f0f0; /* Add a light gray background for the active skill content */
+}
+/* Highlight active links */
+/* Highlight active links with a curved background */
+.active-link {
+    background-size: cover;
+    background-color: #0078d4; /* Change this to the desired highlight color */
+    color: #fff; /* Change this to the desired text color */
+    padding: 5px 10px; /* Adjust the padding to add space around the text */
+    border-radius: 50px; /* Add border-radius for the curved effect */
+    /* You can further customize the appearance as needed */
+}
+
+
+/* Highlight active skill image and content */
+.active-skill {
+    border: 2px solid #0078d4; /* Change this to the desired highlight color */
+    border-radius:50% ;
+}
+
+/* Style for the active skill content */
+/* Highlight the active skill image */
+.skill-image.active-skill-image {
+    border: 2px solid red; /* You can change the color to your preferred highlight color */
+}
+
+/* Style for the active skill content */
+.skill-content.active-skill-content {
+    background-color: #f0f0f0; /* You can change the background color to your preferred highlight color */
+    border-color: red;
+    /* You can add more styles as needed to make the active content stand out */
+}
+
+.active-skill-image {
+    border: 2px solid #007bff; /* You can change the color to your preferred highlight color */
+}
+
+
+
+/* Style for the education section */
+/* Style for the education section */
+
+#edu {
+    top: 100px;
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: left;
+}
+
+#co{
+    
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+    color: #cddafd;
+    font-size: 50px;
+}
+
+#uni {
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    color: #a5be00;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center; /* Center-align the university name */
+}
+
+#logo-container {
+    display: flex; /* Use display: flex; instead of inline-flexbox */
+    justify-content: center; /* Horizontally center-align child elements */
+    align-items: center; /* Vertically center-align child elements */
+    flex-direction: column; /* Stack child elements vertically */
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#logo-container img {
+    margin-bottom: 50px; /* Add margin to the bottom of each image to create space between them */
+}
+
+#cocontent,#madcon,#ptti{
+   
+    color: #ffffff;
+    font-size: 25px;
+    justify-content: center;
+    text-align: justify;
+
+}
+
+#college {
+    font-family: 'Russo One', sans-serif;
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #004e98;
+}
+
+#coim {
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+#degree{
+    position: relative;
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #004e98;
+}
+#bcalogo{
+    margin-top: 50px;
+    margin: 0 auto;
+    display: block;
+}
+#per{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+#fp{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25;
+    color: #ffffff;
+}
+#takep{
+   color: #eeba0b;
+}
+
+
+#sc{
+    font-size: 50px;
+    margin-top: 50px;
+    color: #cddafd;
+}
+#sc12{
+    margin-top: 100px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    
+    color: #004e98;
+
+}
+#scim{
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+}
+
+#std12{
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+   
+    color:#ffffff ;
+
+
+}
+
+#maj{
+    text-align: center;
+    font-size: 30px;
+    
+    color: #ffffff;
+
+}
+
+#per12{
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+
+
+}
+#std10{
+    margin-top:50px ;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+
+}
+#per10{
+    text-align: center;
+    font-size: 30px; 
+    color:#ffffff;
+
+}
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    cursor: pointer;
+}
+#show10thMarksheet,#show12thMarksheet,#openModal{
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: rgb(91, 203, 247);
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px; 
+    margin-left: 47%;
+    margin-top: 10px;
+}
+#prevImage{
+    font-size: 15px;
+    background-color: rgb(198, 240, 14);
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px; 
+    margin-left: 20%;
+}
+#nextImage{
+    font-size: 15px;
+    background-color: rgb(198, 240, 14);
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px; 
+    margin-right: 20%;
+}
+#project{
+    font-size: 25px;
+    
+    color: #ffffff;
+}
+#ph{
+    margin-top: 100px ;
+    font-size: 50px;
+}
+
+#acp,#personalpro{
+    color: #eeba0b;
+    margin-top: 70px;
+    left: 30px;
+}
+#acp{
+    color: #eeba0b;
+}
+#pti,#etitle,#atitle{
+    margin-top: 60px;
+    text-align: center;
+}
+#vdu,#edur,#adu{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+#des,#edis,#adis{
+    margin-top: 30px;
+    font-size: 25px;
+    left: 30px;
+
+}
+#etitle,#pti,#atitle{
+    color: #FBD2C9;
+}
+#deli {
+    list-style-type: circle ;
+   
+    padding-left: 20px;
+  
+}
+#deli li {
+    margin-bottom: 15px;
+}
+
+#deh,#cf,#prvsa,#deh2,#ov2,#teh,#kfe,#skut,#prest,#prvsa2,#prdesh,#prfe,#prsku,#prvs3{
+    font-size: 30px;
+    font-weight: 900;
+    color:#FD9096;
+}
+
+#pim {
+    justify-content: center;
+    display: flex;
+    align-items: center ; /* Vertically center-align the contents */
+}
+
+#pim img {
+    margin-right: 10px; /* Add some spacing between the image and text */
+}
+
+#et,#efe,#es,#asl{
+    list-style: none;
+    display: block;
+   
+    padding-left: 20px;
+    
+}
+#et li,#efe li,#es li,#asl li{
+    margin-bottom: 15px;
+   
+}
+
+#efe{
+    list-style: circle;
+}
+
+
+
+
+/*.internship*/
+#internship {
+    text-align: center;
+   
+    padding: 30px 0; /* Add more vertical padding */
+  }
+  
+  #inti {
+    text-align: left;
+    font-size: 36px;
+    /* Darken the text color */
+    margin-bottom: 10px; /* Add some space below the title */
+  }
+  #flu ,#pyti{
+    margin-top: 70px;
+    text-align: left;
+    font-size: 24px;
+    text-decoration: overline;
+    text-decoration: underline ;
+    color: #fa0fbf;
+    margin-bottom: 20px; /* Add space below the subheading */
+  } 
+  
+  
+  #flp {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+  }
+  
+  #flc {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  
+  #pyti {
+    margin-top: 70px;
+    text-align: left;
+    font-size: 24px;
+    
+    margin-bottom: 20px; /* Add space below the subheading */
+  }
+  
+  #prc {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 20px;
+   color: #FFFFFF;
+    margin-bottom: 40px; /* Add space below the provider text */
+  }
+  
+  #incon {
+    text-align: left;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #FFFFFF; /* Use a dark gray text color to provide good contrast */
+    
+    
+  }
+  
+  /* Task Sections */
+  [id^="tas"] {
+    margin-top: 40px;
+    text-align: left;
+    background-color: #faf8f8; /* Add a white background to each task */
+    padding: 20px; /* Add some padding to each task */
+    border-radius: 10px; /* Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  [id^="tas"] h3 {
+    font-size: 24px;
+   /* Darken the text color */
+    margin-bottom: 10px; /* Add space below the task title */
+  }
+  
+  [id^="tas"] h2 {
+    font-size: 20px;
+   /* Adjust the heading color */
+    margin-bottom: 20px; /* Add space below the task subtitle */
+  }
+  
+  [id^="tas"] p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444; /* Darken the text color */
+  }
+  
+  [id^="tas"] ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+    color: #555; /* Adjust the color of the list items */
+  }
+  
+  [id^="tas"] ol li {
+    margin: 10px 0;
+  }
+  
+  [id^="tas"] #t1pli,
+  [id^="tas"] #t2pli,
+  [id^="tas"] #t3pli,
+  [id^="tas"] #t4pli,
+  [id^="tas"] #t5pli {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+   
+  }
+  
+  [id^="tas"] #t1pli img,
+  [id^="tas"] #t2pli img,
+  [id^="tas"] #t3pli img,
+  [id^="tas"] #t4pli img,
+  [id^="tas"] #t5pli img {
+    margin-right: 10px;
+  }
+  #tacf,#tacf1,#tacf2,#tacf3,#tacf4{
+    margin-top: 20px;
+  }
+  /* Links */
+  [id^="tas"] a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  [id^="tas"] a:hover {
+    color: #0056b3;
+  }
+/* Footer */
+footer {
+    margin-top: 150px;
+    background-color: #a98467; /* Set your desired background color */
+    color: black; /* Text color for the footer */
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    position: relative;
+    bottom: 0; /* Position the footer at the bottom of the page */
+  width: 100%; /* Make the footer full width */
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    color: black;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+#foco, #foe, #fosh, #fona, #foli, #foi, #fofo {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+#foco img, #foe img, #foli img, #foi img, #fona img, #fosh img ,#fofo img{
+   
+    max-width: 30px;
+    max-height: 30px;
+}
+#fofo img{
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: cover;
+}
+#foco p, #foe a, #foli a, #foi a, #fona a, #fosh a, #fofo a{
+    color: black;
+    font-weight: bolder;
+    margin-left: 5px; /* Add space to the left of the text */
+}
+
+#certifications.active + header {
+    width: 150%; /* Set the header width to 100% only when the certification section is active */
+}
+
+#certifications {
+   max-width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+#certi {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#cerhe{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: left;
+
+}
+#certi img{
+    width: 100px;
+    height: 100px;
+}
+#certi h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+#ce1, #ce2, #ce3, #ce4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+/* Style for each certification */
+.certification1, .certification2, .certification3,
+.certification4, .certification5, .certification6,
+.certification7, .certification8, .certification9,
+.certification10, .certification11 {
+    width: 450px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    border: 1px solid #02030a;
+    padding: 10px;
+    margin-right: 80px;
+    transition: transform 0.3s;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow for a nice hover effect */
+}
+
+.certification1:hover, .certification2:hover, .certification3:hover,
+.certification4:hover, .certification5:hover, .certification6:hover,
+.certification7:hover, .certification8:hover, .certification9:hover,
+.certification10:hover, .certification11:hover {
+    transform: translateY(-5px); /* Add a slight upward translation on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Adjust the box shadow on hover */
+}
+
+
+/* When hovering over a certification, scale it to 800x800 */
+.certification1:hover,
+.certification2:hover,
+.certification3:hover,
+.certification4:hover,
+.certification5:hover,
+.certification6:hover,
+.certification7:hover,
+.certification8:hover,
+.certification9:hover,
+.certification10:hover,
+.certification11:hover {
+    transform: scale(1.2); /* Enlarge the certification element */
+    z-index: 1; /* Bring the hovered certification to the forefront */
+}
+
+/* Style the certificate image */
+.certification1 img,
+.certification2 img,
+.certification3 img,
+.certification4 img,
+.certification5 img,
+.certification6 img,
+.certification7 img,
+.certification8 img,
+.certification9 img,
+.certification10 img,
+.certification11 img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s; /* Add a smooth transition for image scaling */
+}
+
+/* When hovering over a certification, scale the image */
+.certification1:hover img,
+.certification2:hover img,
+.certification3:hover img,
+.certification4:hover img,
+.certification5:hover img,
+.certification6:hover img,
+.certification7:hover img,
+.certification8:hover img,
+.certification9:hover img,
+.certification10:hover img,
+.certification11:hover img {
+    transform: scale(5.5); /* Enlarge the image when hovering over the certification */
+    object-fit: fill;
+}
+
+/* Add a back-to-top button */
+#backToTop {
+    background-image: url('top-up.png');
+    background-size: cover; /* Adjust the size as needed */
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    width: 60px; /* Set the width of the button to match your image */
+    height: 60px; /* Set the height of the button to match your image */
+    cursor: pointer;
+    z-index: 2; /* Set a higher z-index value to make it appear above other elements, like the footer */
+}
+
+/* Style links */
+a {
+    color: #0f0f0f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+    /* Add this CSS to your stylesheet */
+    body{
+        max-width: 270%;
+    }
+    #home,#skills,#education,#project,#internship{
+    
+        max-width: 100%;
+    }
+    #header,#horlist{
+           max-width: 300%;  
+    }
+    #logo img{
+        width: 100px;
+        height: 100px;
+        
+    }
+
+    #headerconlist{
+        margin-left: 45vw;
+    }
+    #name {
+        font-size: 5vw; /* Adjust font size for smaller screens */
+        justify-content: center;
+        align-items: center;
+    }
+    #education{
+        max-width: 100%;
+        position: relative;
+    }
+    .skill-content{
+        max-width: 150vw;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30vw;
+       
+    }
+
+    #ma,#coim,#bcalogo,#scim{
+        max-height: 150vw;
+        max-width: 160vw;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20vw;
+        object-fit: fill;
+    }
+   
+    footer{
+        position: relative;
+        bottom: 0;
+    }
+
+    #background-video,#background-video1,#background-video2{
+        max-width: 210vw;
+        max-height: 150vw;
+    }
+    #ce1{
+        max-width: 100%;
+    }
+    /* Adjust the container size during hover state */
+.certification1:hover,
+.certification2:hover,
+.certification3:hover,
+.certification4:hover,
+.certification5:hover,
+.certification6:hover,
+.certification7:hover,
+.certification8:hover,
+.certification9:hover,
+.certification10:hover,
+.certification11:hover {
+    width: 550px; /* Adjust the width to accommodate the larger image */
+}
+
+/* Add this CSS for image transformation on hover */
+.certification1:hover img,
+.certification2:hover img,
+.certification3:hover img,
+.certification4:hover img,
+.certification5:hover img,
+.certification6:hover img,
+.certification7:hover img,
+.certification8:hover img,
+.certification9:hover img,
+.certification10:hover img,
+.certification11:hover img {
+    transform: translateX(50%) scale(5.2); /* Move the image to the right and enlarge it */
+    object-fit: fill;
+}
+
+   #ce1,#ce2,#ce3,#ce4{
+    max-width: 100vw;
+    margin-bottom: 20vw;
+    margin-left: 15vw;
+}
+
+#backToTop{
+    max-height: 50vw;
+    max-width: 70vw;
+    margin-right: 10vw;
+}
+#background-video0 {
+        height: 100%;
+        object-fit: cover;
+        max-width: 100%;
+    }
+
+}
