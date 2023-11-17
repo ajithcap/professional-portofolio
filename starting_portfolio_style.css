@@ -969,11 +969,19 @@ a:hover {
     /* Add this CSS to your stylesheet */
     body{
         max-width: 100%;
+        zoom: 0.4;
+       
         
     }
+    #background-video0{
+        max-width: 270%;
+        max-height: 100%;
+        object-fit: cover;
+    }
     /* Add your existing styles here */
+/* Add your existing styles here */
 
-.popup {
+.modal {
     display: none;
     position: fixed;
     top: 0;
@@ -985,7 +993,7 @@ a:hover {
     z-index: 1000;
 }
 
-.popup-content {
+.modal-content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -995,7 +1003,7 @@ a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.popup button {
+.modal button {
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
@@ -1003,11 +1011,7 @@ a:hover {
     cursor: pointer;
 }
 
-    #background-video0{
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: cover;
-    }
+
     #home,#skills,#education,#project,#internship{
     
         max-width: 100%;
