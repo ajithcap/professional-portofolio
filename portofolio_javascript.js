@@ -253,14 +253,23 @@ document.addEventListener("DOMContentLoaded", function() {
     // Call the function initially
     checkText();
 
-    function forceDesktopView() {
-        if (window.innerWidth <= 768) {
-          // Assuming 768 pixels is the threshold for mobile screens
-          // You can adjust this threshold based on your design
-          document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=100%');
-        }
-      }
-    
-      // Run the function when the page loads
-      window.addEventListener('load', forceDesktopView);
+ // Function to show the desktop view popup
+function showDesktopPopup() {
+    var popup = document.getElementById('desktopPopup');
+    popup.style.display = 'block';
+  }
+  
+  // Function to close the popup
+  function closePopup() {
+    var popup = document.getElementById('desktopPopup');
+    popup.style.display = 'none';
+  }
+  
+  // Check if the user is on a mobile device and show the popup
+  window.addEventListener('load', function () {
+    if (window.innerWidth <= 768) {
+      showDesktopPopup();
+    }
+  });
+  
 });
