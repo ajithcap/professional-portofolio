@@ -18,7 +18,6 @@ body {
     padding: 0;
     
 }
-
 #warning-message {
     display: none;
     background-color: #FF0000;
@@ -34,7 +33,7 @@ body {
     top: 0;
     left: 0;
     min-width: 100%; /* Set the width to 100% for full width */
-    max-height: 900%;
+    max-height: 100%;
     z-index: -1; /* Place the video behind other content */
     object-fit: cover;
 }
@@ -964,20 +963,22 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
 @media only screen and (max-width: 600px) {
     /* Add this CSS to your stylesheet */
     body{
         max-width: 270%;
-         zoom: 150%; 
-    }
-    #home,#skills,#education,#project,#internship{
-    
-        max-width: 100%;
+        
     }
     #background-video0{
         max-width: 270%;
         max-height: 100%;
         object-fit: cover;
+    }
+    #home,#skills,#education,#project,#internship{
+    
+        max-width: 100%;
     }
     #header,#horlist{
            max-width: 300%;  
