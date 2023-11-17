@@ -253,6 +253,27 @@ document.addEventListener("DOMContentLoaded", function() {
     // Call the function initially
     checkText();
 
+// Function to check if the website is opened on a mobile or tablet view
+function isMobileOrTablet() {
+    return window.innerWidth <= 767; // Adjust the breakpoint as needed
+}
+
+// Function to display the popup message
+function showPopup() {
+    const popup = document.getElementById('zoomOutPopup');
+    popup.style.display = 'block';
+}
+
+// Function to close the popup message
+function closePopup() {
+    const popup = document.getElementById('zoomOutPopup');
+    popup.style.display = 'none';
+}
+
+// Check if the website is opened on a mobile or tablet view and show the popup
+if (isMobileOrTablet()) {
+    showPopup();
+}
 
   
 });
