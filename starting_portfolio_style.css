@@ -968,7 +968,7 @@ a:hover {
 @media only screen and (max-width: 600px) {
     /* Add this CSS to your stylesheet */
     body{
-        max-width: 270%;
+        max-width: 100%;
         
     }
     /* Add your existing styles here */
