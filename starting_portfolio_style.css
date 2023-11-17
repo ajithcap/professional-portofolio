@@ -18,31 +18,7 @@ body {
     padding: 0;
     
 }
-.popup {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-    text-align: center;
-  }
-  
-  .popup p {
-    margin-bottom: 10px;
-  }
-  
-  .popup button {
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
+
 #warning-message {
     display: none;
     background-color: #FF0000;
@@ -998,8 +974,9 @@ a:hover {
         max-width: 100%;
     }
      #background-video0{
-        max-width: max-content;
-        max-height: max-content;
+       max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
     }
     #header,#horlist{
            max-width: 300%;  
