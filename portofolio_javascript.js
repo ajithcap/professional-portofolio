@@ -245,6 +245,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const text = centralContent.querySelector("p");
         if (text) {
             centralContent.style.backgroundColor = "rgba(0, 0, 0, 0.3)"; // Transparent background with text
+            centralContent.style.padding="10px";
         } else {
             centralContent.style.backgroundColor = "rgba(0, 0, 0, 0.7)"; // Reset background color without text
         }
@@ -252,28 +253,30 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Call the function initially
     checkText();
+    function isMobileOrTablet() {
+        return window.innerWidth <= 767; // Adjust the breakpoint as needed
+    }
 
-// Function to check if the website is opened on a mobile or tablet view
-function isMobileOrTablet() {
-    return window.innerWidth <= 767; // Adjust the breakpoint as needed
-}
+    // Function to display the modal pop-up message
+    function showModal() {
+        const modal = document.getElementById('zoomOutModal');
+        modal.style.display = 'block';
+    }
 
-// Function to display the popup message
-function showPopup() {
-    const popup = document.getElementById('zoomOutPopup');
-    popup.style.display = 'block';
-}
+    // Function to close the modal pop-up message
+    function closeModal() {
+        const modal = document.getElementById('zoomOutModal');
+        modal.style.display = 'none';
+    }
 
-// Function to close the popup message
-function closePopup() {
-    const popup = document.getElementById('zoomOutPopup');
-    popup.style.display = 'none';
-}
+    // Check if the website is opened on a mobile or tablet view and show the modal pop-up
+    document.addEventListener('DOMContentLoaded', function() {
+        if (isMobileOrTablet()) {
+            showModal();
+        }
+    });
 
-// Check if the website is opened on a mobile or tablet view and show the popup
-if (isMobileOrTablet()) {
-    showPopup();
-}
+
 
   
 });
