@@ -1026,10 +1026,10 @@ a:hover {
     }
 
     #heli{
-        margin-left: 15vw;
+        margin-left: 10vw;
     }
     #name {
-        font-size: 6.5vw; /* Adjust font size for smaller screens */
+        font-size: 5vw; /* Adjust font size for smaller screens */
         justify-content: center;
         align-items: center;
     }
