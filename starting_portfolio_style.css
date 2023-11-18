@@ -300,7 +300,10 @@ header {
 .skill-content p, .skill-content h4, .skill-content li {
     text-align: left;
 }
-
+#skwork{
+    color: #b1ee09;
+    
+}
 
 
 
