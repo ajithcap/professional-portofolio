@@ -1029,7 +1029,7 @@ a:hover {
         margin-left: 15vw;
     }
     #name {
-        font-size: 7vw; /* Adjust font size for smaller screens */
+        font-size: 6vw; /* Adjust font size for smaller screens */
         justify-content: center;
         align-items: center;
     }
