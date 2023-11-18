@@ -1047,7 +1047,9 @@ a:hover {
         margin-bottom: 30vw;
        
     }
-
+    #skwork{
+    color: #b1ee09;
+    }
     #ma,#coim,#bcalogo,#scim{
         max-height: 150vw;
         max-width: 160vw;
