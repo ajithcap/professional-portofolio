@@ -1099,6 +1099,8 @@ a:hover {
 .certification10:hover img,
 .certification11:hover img {
     transform: translateX(50%) scale(5.2); /* Move the image to the right and enlarge it */
+     margin-left: 90%;
+    margin-right: 10%;
     object-fit: fill;
 }
 
