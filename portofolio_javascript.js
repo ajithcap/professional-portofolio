@@ -241,7 +241,7 @@ document.addEventListener("DOMContentLoaded", function() {
    
 
     // Check if there is text in the central content
-    function checkText() {
+    /*function checkText() {
         const text = centralContent.querySelector("p");
         if (text) {
             centralContent.style.backgroundColor = "rgba(0, 0, 0, 0.3)"; // Transparent background with text
@@ -249,7 +249,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             centralContent.style.backgroundColor = "rgba(0, 0, 0, 0.7)"; // Reset background color without text
         }
-    }
+    }*/
 
     // Call the function initially
     checkText();
