@@ -367,7 +367,9 @@ header {
 
 #skwork{
     color: #b1ee09;
-    
+    padding: 5vh;
+    padding-right: 75vw;
+   
 }
 
 /* Style for the education section */
@@ -629,13 +631,29 @@ header {
     color:#FD9096;
 }
 
-#pim {
+#pim,#pim2,#pim3 {
+    color: #ffffff !important;/* Set the desired color, in this case, white */
+    
     justify-content: center;
     display: flex;
     align-items: center ; /* Vertically center-align the contents */
 }
+#pimp:link,#pimp2:link,#pimp3:link {
+    color: white !important; /* Set the color for unvisited links */
+    text-decoration: none; /* Remove default underline for links */
+}
 
-#pim img {
+#pimp:visited,#pimp2:visited,#pimp3:visited {
+    color: white !important; /* Set the color for visited links */
+    text-decoration: none; /* Remove default underline for links */
+}
+
+#pimp:hover,#pimp2:hover,#pimp3:hover {
+    color: red !important; /* Change color on hover, you can set it to any color you prefer */
+    text-decoration: underline; /* Underline on hover if desired */
+}
+
+#pim img,#pim2 img,#pim3 img {
     margin-right: 10px; /* Add some spacing between the image and text */
 }
 
@@ -1059,7 +1077,14 @@ a:hover {
         margin-bottom: 30vw;
        
     }
-
+    #skwork{
+        color: #b1ee09;
+        padding-left: 5vh;
+        padding-right: 60vh;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        max-width: 100%;
+    }
     #ma,#coim,#bcalogo,#scim{
         max-height: 150vw;
         max-width: 160vw;
