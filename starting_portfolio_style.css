@@ -92,7 +92,7 @@ header {
 
 
 
-#objective-text p, #obj {
+#objective-text , #obj {
     font-family: 'Arimo', sans-serif;
     margin-top: 20px;
     font-weight: bold;
@@ -161,7 +161,16 @@ header {
     text-shadow: 2px 2px 4px rgba(8, 3, 1, 0.829); /* Add a text shadow with a sunset orange color */
 }
 
+#a1, #a2, #a3, #a4, #a5, #a6, #a7 {
+    color: #db504a;
+    font-family: 'Lato', sans-serif;
+}
 
+#k1, #k2, #k3, #k4, #k5, #k6, #k7 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px; /* or 0.1em for a relative unit */
+
+}
 #horlist {
     
     list-style: none;
@@ -300,10 +309,7 @@ header {
 .skill-content p, .skill-content h4, .skill-content li {
     text-align: left;
 }
-#skwork{
-    color: #b1ee09;
-    
-}
+
 
 
 
@@ -359,7 +365,10 @@ header {
     border: 2px solid #007bff; /* You can change the color to your preferred highlight color */
 }
 
-
+#skwork{
+    color: #b1ee09;
+    
+}
 
 /* Style for the education section */
 /* Style for the education section */
@@ -645,10 +654,13 @@ header {
 #efe{
     list-style: circle;
 }
-
-
-
-
+#background-video,#background-video1,#background-video2{
+    max-width: 95vw;
+    max-height: 90vw;
+}
+#ss1,#ss2,#ss3,#ss4,#ss5,#ss6,#ss7,#ss8,#ss9,#ss10,#ss11,#ss12,#ss13,#ss14,#ss15,#ss16,#ss17,#ss18,#ss19,#ss20,#ss21{
+    color: #bbdb9b;
+}
 /*.internship*/
 #internship {
     text-align: center;
@@ -829,7 +841,7 @@ footer {
 }
 
 #certifications.active + header {
-    width: 150%; /* Set the header width to 100% only when the certification section is active */
+    width: 100%; /* Set the header width to 100% only when the certification section is active */
 }
 
 #certifications {
@@ -861,7 +873,7 @@ footer {
     color: #FFFFFF;
 }
 #ce1, #ce2, #ce3, #ce4 {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -882,15 +894,15 @@ footer {
     transition: transform 0.3s;
     cursor: pointer;
     position: relative;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow for a nice hover effect */
+    box-shadow: 0 4px 6px rgba(233, 245, 63, 0); /* Add box shadow for a nice hover effect */
 }
 
 .certification1:hover, .certification2:hover, .certification3:hover,
 .certification4:hover, .certification5:hover, .certification6:hover,
 .certification7:hover, .certification8:hover, .certification9:hover,
 .certification10:hover, .certification11:hover {
-    transform: translateY(-5px); /* Add a slight upward translation on hover */
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Adjust the box shadow on hover */
+    transform: translateY(-2px); /* Add a slight upward translation on hover */
+    box-shadow: 0 8px 12px rgba(23, 250, 231, 0.2); /* Adjust the box shadow on hover */
 }
 
 
@@ -968,10 +980,10 @@ a:hover {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     /* Add this CSS to your stylesheet */
     body{
-        max-width: 120%;
+        max-width: 150%;
         zoom: 0.4;
        
         
@@ -1029,10 +1041,10 @@ a:hover {
     }
 
     #heli{
-        margin-left: 1vw;
+        margin-left: 15vw;
     }
     #name {
-        font-size: 6vw; /* Adjust font size for smaller screens */
+        font-size: 6.5vw; /* Adjust font size for smaller screens */
         justify-content: center;
         align-items: center;
     }
@@ -1047,9 +1059,7 @@ a:hover {
         margin-bottom: 30vw;
        
     }
-    #skwork{
-    color: #b1ee09;
-    }
+
     #ma,#coim,#bcalogo,#scim{
         max-height: 150vw;
         max-width: 160vw;
@@ -1065,8 +1075,9 @@ a:hover {
     }
 
     #background-video,#background-video1,#background-video2{
-        max-width: 210vw;
-        max-height: 150vw;
+        max-width: 240vw;
+        max-height: 200vw;
+        
     }
     #ce1{
         max-width: 100%;
@@ -1099,7 +1110,7 @@ a:hover {
 .certification10:hover img,
 .certification11:hover img {
     transform: translateX(50%) scale(5.2); /* Move the image to the right and enlarge it */
-     margin-left: 90%;
+    margin-left: 90%;
     margin-right: 10%;
     object-fit: fill;
 }
