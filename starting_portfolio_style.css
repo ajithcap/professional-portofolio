@@ -88,6 +88,7 @@ header {
     color: #a8dadc;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
+    letter-spacing: 3px;
 }
 
 
@@ -154,16 +155,22 @@ header {
     height: 600px;
 }
 
- 
 
+  
+    
+  
 #ob, #sk, #edu, #ph, #inti, #cerhe {
     color: #fd8b09;
+    font-size: 40px;
     text-shadow: 2px 2px 4px rgba(8, 3, 1, 0.829); /* Add a text shadow with a sunset orange color */
 }
 
 #a1, #a2, #a3, #a4, #a5, #a6, #a7 {
-    color: #db504a;
-    font-family: 'Lato', sans-serif;
+    color: teal;
+    font-family: 'SDRoboticsDemo', sans-serif;
+    letter-spacing: 2px;
+    font-size: 35px;
+  
 }
 
 #k1, #k2, #k3, #k4, #k5, #k6, #k7 {
@@ -526,6 +533,12 @@ header {
     color:#ffffff;
 
 }
+#sdur1,#sdur2,#sdur3{
+    justify-content: center;
+    margin-left:47% ;
+    align-items: center;
+    color: #ffffff;
+}
 /* Modal styles */
 .modal {
     display: none;
@@ -816,7 +829,7 @@ header {
 /* Footer */
 footer {
     margin-top: 150px;
-    background-color: #a98467; /* Set your desired background color */
+    background-color: lightgray; /* Set your desired background color */
     color: black; /* Text color for the footer */
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
