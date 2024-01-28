@@ -1170,5 +1170,12 @@ a:hover {
         object-fit: cover;
         max-width: 100%;
     }
+    #a1, #a2, #a3, #a4, #a5, #a6, #a7 {
+    color: teal;
+    font-family: 'SDRoboticsDemo', sans-serif;
+    letter-spacing: 2px;
+    font-size: 35px;
+  
+}
 
 }
