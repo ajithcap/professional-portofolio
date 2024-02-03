@@ -167,7 +167,7 @@ header {
 
 #a1, #a2, #a3, #a4, #a5, #a6, #a7 {
     color: teal;
-    font-family: 'SDRoboticsDemo', sans-serif;
+    font-family: 'cinzel', sans-serif;
     letter-spacing: 2px;
     font-size: 35px;
   
@@ -1014,7 +1014,7 @@ a:hover {
 @media only screen and (max-width: 800px) {
     /* Add this CSS to your stylesheet */
     body{
-        max-width: 150%;
+        max-width: 100%;
         zoom: 0.4;
        
         
